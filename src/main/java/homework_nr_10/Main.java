@@ -28,5 +28,14 @@ public class Main {
         System.out.println(saveVariableRandom + " x 2 = " + multiply.apply(saveVariableRandom));
     }
 
-
+    public static void testEmployee(Employee e, Predicate<Employee> testMethod) {
+        System.out.println("Testing employee : " + e.getName() + " " + e.getSurname());
+        boolean result = testMethod.test(e);
+        if (result) {
+            System.out.println("Result: The employee complies with the conditions.");
+        } else {
+            System.out.println("Result: The employee does not satisfy the condition.");
+        }
+        System.out.println();
+    }
 }
