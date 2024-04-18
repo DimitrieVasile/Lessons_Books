@@ -3,7 +3,7 @@ package homework_nr_11;
 import java.util.ArrayList;
 import java.util.List;
 
-public class HomeWorkNr11 {
+public class HomeWorkNr11{
     public static void main(String[] args) {
         List<String> randomString = new ArrayList<>(10);
         randomString.stream()
