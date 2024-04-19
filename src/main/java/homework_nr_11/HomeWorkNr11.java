@@ -3,7 +3,7 @@ package homework_nr_11;
 import java.util.ArrayList;
 import java.util.List;
 
-public class HomeWorkNr11{
+public class HomeWorkNr11 {
     public static void main(String[] args) {
         List<String> randomString = new ArrayList<>(10);
         randomString.stream()
@@ -11,11 +11,11 @@ public class HomeWorkNr11{
                 .forEach(System.out::println);
         List<Person> personList = new ArrayList<>();
         personList.add(new Person("Alex", "Johnson", 15, true));
-        personList.add(new Person("Emily", "Prown", 25, false));
+        personList.add(new Person("Emily", "Postolachi", 25, false));
         personList.add(new Person("Daniel", "Martinez", 29, true));
         personList.add(new Person("Olivia", "Wilson", 40, false));
         personList.add(new Person("Ethan", "Johnson", 30, true));
-        personList.add(new Person("Sophia", "Johnson", 25, false));
+        personList.add(new Person("Sophia", "Pascal", 25, false));
         personList.add(new Person("Isabella", "Rodriguez", 35, true));
         personList.add(new Person("Mia", "Moore", 40, false));
         personList.add(new Person("Alex", "Anderson", 30, true));
@@ -33,10 +33,11 @@ public class HomeWorkNr11{
 
         List<String> womenUnder30andSurnameStartsWithP = personList.stream()
                 .filter(person -> !person.isMale() && person.getAge() < 30 && person.getSurname().startsWith("P"))
-                .map(Person::getName)
-                .toList();
+                .findFirst()
+                .map(Person::getSurname)
+                .stream().toList();
         if (!womenUnder30andSurnameStartsWithP.isEmpty()) {
-            System.out.println("Women under 30 with surname starting with 'P': " + womenUnder30andSurnameStartsWithP);
+            System.out.println("Surname women under 30 with surname starting with 'P': " + womenUnder30andSurnameStartsWithP);
         } else {
             System.out.println("No women under 30 with surname starting with 'P' found.");
         }
