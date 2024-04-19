@@ -28,7 +28,7 @@ public class HomeWorkNr11 {
         if (!maleUnder30.isEmpty()) {
             System.out.println("Men under 30 : " + maleUnder30);
         } else {
-            System.out.println("No men under 30 found.");
+            System.out.println("No men under 30 found");
         }
 
         List<String> womenUnder30andSurnameStartsWithP = personList.stream()
