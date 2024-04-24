@@ -1,0 +1,107 @@
+[33mcommit 24cd49f0e9ea9f8b0e535395aaa7236684ef85f9[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;32mhomework_nr_13[m[33m)[m
+Merge: 485097b e98414b
+Author: Vasile Dimitriev <164555291+DimitrieVasile@users.noreply.github.com>
+Date:   Sun Apr 14 06:18:50 2024 +0300
+
+    Merge pull request #6 from DimitrieVasile/homework_nr_6
+    
+    Add HomeWorkNr6
+
+[33mcommit e98414bcc892b5f8cb09314f9d31ebd6e82c6c5e[m
+Author: DimitrievVasile <dimi3ievasile@gmail.com>
+Date:   Sun Apr 14 06:17:43 2024 +0300
+
+    Add HomeWorkNr6
+
+[33mcommit 485097b8a9986341765f9593f80161bb2b840e26[m
+Merge: 06a1388 14a22e8
+Author: Vasile Dimitriev <164555291+DimitrieVasile@users.noreply.github.com>
+Date:   Sun Apr 14 04:42:16 2024 +0300
+
+    Merge pull request #5 from DimitrieVasile/homework_nr_5
+    
+    Add HomeWorkNr5
+
+[33mcommit 14a22e8ab9d413eac9159ae94a327c7f4dfbf47d[m
+Author: DimitrievVasile <dimi3ievasile@gmail.com>
+Date:   Sun Apr 14 04:41:18 2024 +0300
+
+    Add HomeWorkNr5
+
+[33mcommit 06a13880d845a8363fa6344d63e781bd490b39bc[m
+Merge: 7bcd798 e15e4e7
+Author: Vasile Dimitriev <164555291+DimitrieVasile@users.noreply.github.com>
+Date:   Sun Apr 14 03:56:16 2024 +0300
+
+    Merge pull request #4 from DimitrieVasile/homework_nr_4
+    
+    Homework nr 4
+
+[33mcommit e15e4e7aff285c87fe27946e532a8d12ddf10ffc[m
+Author: DimitrievVasile <dimi3ievasile@gmail.com>
+Date:   Sun Apr 14 03:55:17 2024 +0300
+
+    Add TemperatureConverter
+
+[33mcommit 92c8932603020457c92e254bdcd978d1cfcc5947[m
+Author: DimitrievVasile <dimi3ievasile@gmail.com>
+Date:   Sun Apr 14 03:22:39 2024 +0300
+
+    Add Circle
+
+[33mcommit 7bcd79802a8b8a8ec2ad3b367c07f0e11c4a9fa0[m
+Merge: c07909a e55b6fe
+Author: Vasile Dimitriev <164555291+DimitrieVasile@users.noreply.github.com>
+Date:   Sun Apr 14 03:03:38 2024 +0300
+
+    Merge pull request #3 from DimitrieVasile/homework_nr_3
+    
+    Add HomeWork3.java
+
+[33mcommit e55b6fe9e085ee03f34bc6af2a96716ce5711688[m
+Author: DimitrievVasile <dimi3ievasile@gmail.com>
+Date:   Sun Apr 14 03:02:12 2024 +0300
+
+    Add HomeWork3.java
+
+[33mcommit c07909a1b23049d1b591978fbb5a5fc36c56af18[m
+Merge: 5f61274 ed60372
+Author: Vasile Dimitriev <164555291+DimitrieVasile@users.noreply.github.com>
+Date:   Sun Apr 14 02:29:01 2024 +0300
+
+    Merge pull request #2 from DimitrieVasile/homework_nr_2
+    
+    Add HomeWork2.java
+
+[33mcommit ed60372fe8c0cb2850cd3caa1655c0e2b558603f[m
+Author: DimitrievVasile <dimi3ievasile@gmail.com>
+Date:   Sun Apr 14 02:27:35 2024 +0300
+
+    Add HomeWork2.java
+
+[33mcommit 5f612745656ac19f5360913410e42c81f34847bd[m
+Merge: b8deee5 f1a4a9a
+Author: Vasile Dimitriev <164555291+DimitrieVasile@users.noreply.github.com>
+Date:   Sun Apr 14 02:11:54 2024 +0300
+
+    Merge pull request #1 from DimitrieVasile/homework_nr_1
+    
+    Homework nr 1
+
+[33mcommit f1a4a9a385b221e8fdefc9eba2119ce48ab91dd5[m
+Author: DimitrievVasile <dimi3ievasile@gmail.com>
+Date:   Sun Apr 14 02:10:37 2024 +0300
+
+    Add test_file_1.txt /  change 1 to 2
+
+[33mcommit 2587d596a79492dc25525ea549d09ae0c9d34329[m
+Author: DimitrievVasile <dimi3ievasile@gmail.com>
+Date:   Sun Apr 14 02:08:16 2024 +0300
+
+    Add test_file_1.txt
+
+[33mcommit b8deee5462cb85fc543d56709242f0966f88cf06[m
+Author: DimitrievVasile <dimi3ievasile@gmail.com>
+Date:   Sun Apr 14 02:00:07 2024 +0300
+
+    Initial commit
