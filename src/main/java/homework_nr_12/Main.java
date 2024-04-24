@@ -20,7 +20,7 @@ public class Main {
                     .append(CheckInteger.CHECK_IF_POSITIVE.testNumb(number) ? "positive" : "negative")
                     .append("\n");
         }
-        System.out.println(output.toString());
+        System.out.println(output);
     }
 }
 
