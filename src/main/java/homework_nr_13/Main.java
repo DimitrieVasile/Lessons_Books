@@ -9,5 +9,4 @@ public class Main {
         System.out.println(" * " + airplaneLBYL.getManufacturer() + " " + airplaneLBYL.getModel() + " has " + airplaneLBYL.getNrOfEngines() + " engines");
         System.out.println(" * " + airplaneEAFP.getManufacturer() + " " + airplaneEAFP.getModel() + " has " + airplaneEAFP.getNrOfEngines() + " engines");
     }
-
 }
