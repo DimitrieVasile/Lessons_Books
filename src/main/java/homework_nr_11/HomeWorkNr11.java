@@ -5,8 +5,14 @@ import java.util.List;
 
 public class HomeWorkNr11 {
     public static void main(String[] args) {
-        List<String> randomString = new ArrayList<>(10);
-        randomString.stream()
+        List<String> fruits = new ArrayList<>();
+        fruits.add("Papaya");
+        fruits.add("Pear");
+        fruits.add("Avocado");
+        fruits.add("Persimmon");
+        fruits.add("Guava");
+        fruits.add("Kiwi");
+        fruits.stream()
                 .filter(string -> string.contains("A") && string.length() < 5)
                 .forEach(System.out::println);
         List<Person> personList = new ArrayList<>();
@@ -23,7 +29,7 @@ public class HomeWorkNr11 {
 
         List<String> maleUnder30 = personList.stream()
                 .filter(person -> person.isMale() && person.getAge() < 30)
-                .map(Person::getName)
+                .map(Person::getSurname)
                 .toList();
         if (!maleUnder30.isEmpty()) {
             System.out.println("Men under 30 : " + maleUnder30);
@@ -33,8 +39,8 @@ public class HomeWorkNr11 {
 
         List<String> womenUnder30andSurnameStartsWithP = personList.stream()
                 .filter(person -> !person.isMale() && person.getAge() < 30 && person.getSurname().startsWith("P"))
-                .findFirst()
                 .map(Person::getSurname)
+                .findFirst()
                 .stream().toList();
         if (!womenUnder30andSurnameStartsWithP.isEmpty()) {
             System.out.println("Surname women under 30 with surname starting with 'P': " + womenUnder30andSurnameStartsWithP);
