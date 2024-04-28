@@ -1,8 +1,8 @@
 package homework_nr_15;
 
 public class Car implements Comparable<Car> {
-    private int yearMade;
-    private String name;
+    final int yearMade;
+    final String name;
 
     public Car(int yearMade, String name) {
         this.yearMade = yearMade;
