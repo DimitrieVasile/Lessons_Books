@@ -4,7 +4,7 @@ import java.util.UUID;
 
 public class BankAccount {
     private String accountNumber = UUID.randomUUID().toString().substring(0, 8); //copied from stack overflow :D
-    private String name;
+    final private String name;
     private double accountBalance;
 
     public BankAccount(String name) {
@@ -45,10 +45,6 @@ public class BankAccount {
         } else {
             System.out.println("The withdrawal amount must be positive" + "\n");
         }
-    }
-
-    public void checkAccount() {
-        System.out.println("Account balance : " + getAccountBalance() + " Euro" + "\n");
     }
 }
 
